@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+        <h1>Regular Expressions</h1>
+<!-- 
+        <script>
+            var str = "Watching Birds xyz";
+            var reg = /Birds/;
+            var n = str.search(reg);
+            alert("Searching Items at position Index is: "+n);
+        </script> -->
+
+    <!-- <script>
+
+        var nm = "Watching Birds"
+        var reg2 = /BIrdS/i;
+         var nn = nm.replace(reg2,"Cat");
+         alert("Replace Bird string is: "+nn);
+    
+    </script> -->
+<!-- 
+    <p id = "para">
+
+        The best things in life are free
+    </p>
+    <p id = "demo"></p>
+    <button type="button" onclick="match()">Match Button</button>
+
+
+
+    <script>
+        function match(){
+
+            var text = document.getElementById("para").innerHTML;
+            var patt = /fRee/i;
+            var n = text.match(patt)
+            document.getElementById("demo").innerHTML = "Matching result are: "+n;
+        }
+    </script> -->
+
+
+    <h1>Pattern Testing</h1>
+
+    <p id = "para">
+        The best things in life are free
+    </p>
+    <p id = "demo"></p>
+    <button type="button" onclick="Testing()">Test Button</button>
+
+    <script>
+        function Testing(){
+
+        var text = document.getElementById("para").innerHTML;
+        var patt = /fRee/i;
+        var n = patt.test(text);
+        document.getElementById("demo").innerHTML = "Testing result are: "+n;
+        }
+    </script>
+</body>
+</html>

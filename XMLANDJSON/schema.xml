@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+
+<note
+ xmlns:xsi = "https://www.w3.org/2001/XMLSchema"
+ xsi:schemaLocation = "schema.xsd">
+    <To>Xyz</To>
+    <from>124</from>
+    <heading>123</heading>
+    <body>Don't forget this email</body>
+
+</note>

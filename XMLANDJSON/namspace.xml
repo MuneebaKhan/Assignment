@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+
+<root>
+
+<S:Student xmlns:S = "https://spectrafocus.ca/student">
+
+    <S:First>John</S:First>
+    <S:Last>Dewey</S:Last>
+    <S:Title>Student</S:Title>
+
+
+</S:Student>
+
+<Catlog xmlns:Book = "http://aptech-education.com.pk/">
+    <Book:Booklist>
+        <Book:Title>Evening in Paris</Book:Title>
+    </Book:Booklist>
+</Catlog>
+
+</root>

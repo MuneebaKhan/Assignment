@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id = "JsonData"></p>
+    <p id = "demo"></p>
+   <button onclick="getdata()">JSON Data Convert into Object</button>
+
+    <script>
+        var student = {"Name":"Xyz","Class":"Five","Enroll":"1234"} //Json Format
+
+
+
+        var str = JSON.stringify(student)
+        document.getElementById("JsonData").innerHTML = str;
+        
+        // Json To Object Convert
+
+        var Obj = JSON.parse(str);
+    
+        function getdata(){
+
+            for(var k in Obj){
+
+                document.getElementById("demo").innerHTML += k+ " "+Obj[k]; //0//1//2
+            }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<p id = "demo"></p>
+
+
+    <script>
+
+        // Object
+        var address  = {Street: "123 Xyz Karachi",city:"Xyz",PostalCode:"Xyz1234"}
+
+        document.write(address.Street);
+
+
+        var res = JSON.stringify(address); //obj to Json
+
+
+        var print_res = document.getElementById("demo").innerHTML = res;
+
+
+        console.log(print_res);
+
+
+    </script>
+</body>
+</html>
